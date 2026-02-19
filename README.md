@@ -1,4 +1,4 @@
-#  Roadmap.sh Engineering Portfolio
+##  Roadmap.sh
 
 ## Summary
 
@@ -168,6 +168,3 @@ This repository evolves through:
 - [[Deployment Playbook]]
 
 ---
-
-> [!quote]
-> "Build small projects like they are production systems, and you will naturally grow into a production engineer."
