@@ -1,6 +1,4 @@
-##  Roadmap.sh
-
-## Summary
+## Roadmap.sh Summary
 
 A structured, enterprise-grade collection of projects built while following the learning paths from [roadmap.sh](https://roadmap.sh).
 
