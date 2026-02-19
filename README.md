@@ -1,8 +1,8 @@
 #  Roadmap.sh Engineering Portfolio
 
-> [!summary]
-> A structured, enterprise-grade collection of projects built while following the learning paths from https://roadmap.sh.
-> Each implementation prioritizes architecture, maintainability, and production-level engineering practices.
+> [!SUMMARY]
+> An enterprise-grade collection of structured projects developed by following the learning paths from https://roadmap.sh.
+> Each project emphasizes clean architecture, maintainability, scalability, and production-ready engineering standards.
 
 ---
 
