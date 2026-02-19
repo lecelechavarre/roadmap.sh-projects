@@ -1,12 +1,19 @@
-## Roadmap.sh Summary
+---
+title: Roadmap.sh Engineering Portfolio
+author: Lecel Echavarre
+created: 2026-02-19
+tags: [portfolio, roadmap, software-engineering, backend, frontend, devops]
+---
 
-A structured, enterprise-grade collection of projects built while following the learning paths from [roadmap.sh](https://roadmap.sh).
+# 🚀 Roadmap.sh Engineering Portfolio
 
-Each implementation prioritizes architecture, maintainability, scalability, and production-level engineering practices.
+> [!summary]
+> A structured, enterprise-grade collection of projects built while following the learning paths from https://roadmap.sh.
+> Each implementation prioritizes architecture, maintainability, and production-level engineering practices.
 
 ---
 
-##  Purpose
+## 📌 Purpose
 
 This vault section documents my engineering journey aligned with role-based roadmaps.
 
@@ -21,7 +28,7 @@ This is a structured, progressive engineering portfolio designed to demonstrate:
 
 ---
 
-##  Roadmap Alignment
+## 🧭 Roadmap Alignment
 
 ### Backend Track
 - [[Backend Fundamentals]]
@@ -54,7 +61,7 @@ This is a structured, progressive engineering portfolio designed to demonstrate:
 
 ## 🏗 Engineering Standards Applied
 
-###  Architecture Principles
+### 1️⃣ Architecture Principles
 
 - Separation of Concerns
 - Modular Project Structure
@@ -74,7 +81,7 @@ This is a structured, progressive engineering portfolio designed to demonstrate:
 
 ---
 
-###  Scalability Mindset
+### 3️⃣ Scalability Mindset
 
 Even small projects are designed with:
 
@@ -86,7 +93,7 @@ Even small projects are designed with:
 
 ---
 
-##  Repository Structure
+## 📂 Repository Structure
 
 ```
 roadmap-engineering/
@@ -108,7 +115,7 @@ Each project contains:
 
 ---
 
-##  Security Considerations
+## 🔐 Security Considerations
 
 > [!important]
 > Security is treated as a first-class concern.
@@ -120,7 +127,7 @@ Each project contains:
 
 ---
 
-##  Development Philosophy
+## 🧪 Development Philosophy
 
 > [!note]
 > I build learning projects as if they will eventually go to production.
@@ -135,7 +142,7 @@ That means:
 
 ---
 
-##  Growth Strategy
+## 📈 Growth Strategy
 
 This repository evolves through:
 
@@ -147,13 +154,22 @@ This repository evolves through:
 
 ---
 
-##  Long-Term Vision
+## 🎯 Long-Term Vision
 
 - Transform roadmap projects into deployable services
 - Introduce centralized logging
 - Implement automated pipelines
 - Containerize all major services
 - Build a unified engineering ecosystem
+
+---
+
+## 👨‍💻 Author
+
+**Lecel Echavarre**  
+Software Engineer  
+
+Focused on scalable systems, clean architecture, and long-term maintainability.
 
 ---
 
@@ -166,3 +182,6 @@ This repository evolves through:
 - [[Deployment Playbook]]
 
 ---
+
+> [!quote]
+> "Build small projects like they are production systems, and you will naturally grow into a production engineer."
