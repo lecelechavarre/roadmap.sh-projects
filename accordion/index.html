@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>roadmap.sh · FAQ accordion</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="faq-container">
+    <div class="faq-header">
+      <h1>Frequently Asked Questions</h1>
+      <div class="subtitle">Here are some of the frequently asked questions</div>
+    </div>
+
+    <!-- accordion container: event delegation target -->
+    <div class="accordion" id="accordionGroup">
+      <!-- item 1 (expanded by default) -->
+      <div class="accordion-item" data-faq-item>
+        <button class="accordion-btn" id="accordion-btn-1" aria-expanded="true" aria-controls="faq-answer-1">
+          <span>What is roadmap.sh?</span>
+          <span class="arrow-icon" aria-hidden="true"></span>
+        </button>
+        <div class="answer-wrapper expanded" id="faq-answer-1" role="region" aria-labelledby="accordion-btn-1">
+          <div class="answer-content">
+            <p>roadmap.sh is a community effort to create learning paths, guides, project ideas and other similar content to help developers grow in their careers.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- item 2 -->
+      <div class="accordion-item" data-faq-item>
+        <button class="accordion-btn" id="accordion-btn-2" aria-expanded="false" aria-controls="faq-answer-2">
+          <span>What are the plans for roadmap.sh?</span>
+          <span class="arrow-icon" aria-hidden="true"></span>
+        </button>
+        <div class="answer-wrapper" id="faq-answer-2" role="region" aria-labelledby="accordion-btn-2">
+          <div class="answer-content">
+            <p>We are planning to expand the roadmap library, add interactive tracks, and introduce team features. The goal is to cover more technologies and provide personalized learning paths.</p>
+            <span class="placeholder-note">(placeholder text)</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- item 3 -->
+      <div class="accordion-item" data-faq-item>
+        <button class="accordion-btn" id="accordion-btn-3" aria-expanded="false" aria-controls="faq-answer-3">
+          <span>How is roadmap.sh built?</span>
+          <span class="arrow-icon" aria-hidden="true"></span>
+        </button>
+        <div class="answer-wrapper" id="faq-answer-3" role="region" aria-labelledby="accordion-btn-3">
+          <div class="answer-content">
+            <p>The project is open-source and built with Node.js, vanilla JavaScript, and static site generators. The content is maintained by the community via GitHub, with contributions from thousands of developers.</p>
+            <span class="placeholder-note">(placeholder text)</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- item 4 -->
+      <div class="accordion-item" data-faq-item>
+        <button class="accordion-btn" id="accordion-btn-4" aria-expanded="false" aria-controls="faq-answer-4">
+          <span>Can I use roadmap.sh in my team?</span>
+          <span class="arrow-icon" aria-hidden="true"></span>
+        </button>
+        <div class="answer-wrapper" id="faq-answer-4" role="region" aria-labelledby="accordion-btn-4">
+          <div class="answer-content">
+            <p>Absolutely! Many engineering teams use roadmap.sh to onboard new hires, plan learning sprints, and align on skill development. Team‑oriented features are in active development.</p>
+            <span class="placeholder-note">(placeholder text)</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- item 5 -->
+      <div class="accordion-item" data-faq-item>
+        <button class="accordion-btn" id="accordion-btn-5" aria-expanded="false" aria-controls="faq-answer-5">
+          <span>How can I create custom roadmaps?</span>
+          <span class="arrow-icon" aria-hidden="true"></span>
+        </button>
+        <div class="answer-wrapper" id="faq-answer-5" role="region" aria-labelledby="accordion-btn-5">
+          <div class="answer-content">
+            <p>You can use the official roadmap.sh editor or fork the GitHub repository. The editor lets you draw, link, and style nodes. Custom roadmaps can be shared or embedded.</p>
+            <span class="placeholder-note">(placeholder text)</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- item 6 -->
+      <div class="accordion-item" data-faq-item>
+        <button class="accordion-btn" id="accordion-btn-6" aria-expanded="false" aria-controls="faq-answer-6">
+          <span>Is roadmap.sh really 7th most starred project on GitHub?</span>
+          <span class="arrow-icon" aria-hidden="true"></span>
+        </button>
+        <div class="answer-wrapper" id="faq-answer-6" role="region" aria-labelledby="accordion-btn-6">
+          <div class="answer-content">
+            <p>Yes! It has consistently ranked among the top starred repositories. The community loves the practical, structured approach to learning. Check the GitHub repo for live stats.</p>
+            <span class="placeholder-note">(placeholder text)</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
