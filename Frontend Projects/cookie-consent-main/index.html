@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cookie Consent Popup</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="page">
+      <h1>Welcome</h1>
+      <p>This is a sample page. The cookie consent popup should appear on first visit.</p>
+    </main>
+
+    <!-- Cookie Consent -->
+    <section
+      class="cookie-consent"
+      id="cookieConsent"
+      role="dialog"
+      aria-modal="false"
+      aria-labelledby="cookieTitle"
+      aria-describedby="cookieDesc"
+      hidden
+    >
+      <button class="cookie-close" id="cookieClose" aria-label="Close cookie consent popup">
+        ×
+      </button>
+
+      <div class="cookie-icon" aria-hidden="true">🍪</div>
+
+      <h2 class="cookie-title" id="cookieTitle">Cookies</h2>
+      <p class="cookie-text" id="cookieDesc">
+        We use cookies to improve your user experience.
+      </p>
+
+      <button class="cookie-accept" id="cookieAccept">
+        I like Cookies
+      </button>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>

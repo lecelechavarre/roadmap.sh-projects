@@ -1,0 +1,79 @@
+/* Base page styles (not the focus, just enough to look decent) */
+body {
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  margin: 0;
+  padding: 24px;
+  background: #f6f7fb;
+  color: #111;
+}
+
+.page {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Cookie popup */
+.cookie-consent {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  width: 320px;
+  background: #0f0f10;
+  color: #fff;
+  border-radius: 14px;
+  padding: 18px 18px 16px;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.35);
+  z-index: 9999;
+}
+
+/* Close button */
+.cookie-close {
+  position: absolute;
+  right: 12px;
+  top: 10px;
+  background: transparent;
+  border: none;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.cookie-close:hover {
+  color: #fff;
+}
+
+/* Icon */
+.cookie-icon {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+/* Text */
+.cookie-title {
+  margin: 0 0 6px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.cookie-text {
+  margin: 0 0 14px;
+  font-size: 14px;
+  line-height: 1.4;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+/* Accept button */
+.cookie-accept {
+  width: 100%;
+  padding: 12px 14px;
+  border-radius: 10px;
+  border: none;
+  font-weight: 700;
+  cursor: pointer;
+  background: #ffffff;
+  color: #111;
+}
+
+.cookie-accept:hover {
+  filter: brightness(0.96);
+}
