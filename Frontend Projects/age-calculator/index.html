@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanillajs-datepicker@1.2.0/dist/css/datepicker.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><i class="fas fa-calculator"></i> Age Calculator</h1>
+        </header>
+        
+        <main>
+            <div class="calculator-card">
+                <div class="input-section">
+                    <h2><i class="fas fa-calendar-alt"></i> Enter your birth date:</h2>
+                    
+                    <form id="ageForm">
+                        <div class="form-group">
+                            <label for="birthDate">
+                                <i class="fas fa-birthday-cake"></i> Select your birth date
+                            </label>
+                            <div class="datepicker-container">
+                                <input type="text" 
+                                       id="birthDate" 
+                                       name="birthDate"
+                                       class="datepicker-input"
+                                       placeholder="DD/MM/YYYY"
+                                       autocomplete="off">
+                                <div class="icon-container">
+                                    <i class="fas fa-calendar-day"></i>
+                                </div>
+                            </div>
+                            <div class="hint">
+                                <i class="fas fa-info-circle"></i> Click on the calendar icon or input field to open datepicker
+                            </div>
+                        </div>
+                        
+                        <div class="button-container">
+                            <button type="submit" id="calculateBtn" class="btn-calculate">
+                                <i class="fas fa-calculator"></i> Calculate Age
+                            </button>
+                            <button type="button" id="resetBtn" class="btn-reset">
+                                <i class="fas fa-redo"></i> Reset
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                
+                <div class="result-section">
+                    <h2><i class="fas fa-history"></i> Your Age</h2>
+                    
+                    <div id="resultContainer" class="result-container">
+                        <div class="initial-message">
+                            <div class="icon-placeholder">
+                                <i class="fas fa-user-clock"></i>
+                            </div>
+                            <p>Select your birth date and click "Calculate Age" to see your exact age</p>
+                        </div>
+                        
+                        <div id="ageResult" class="age-result" style="display: none;">
+                            <div class="result-header">
+                                <h3>You are</h3>
+                                <div class="result-date" id="selectedDate"></div>
+                            </div>
+                            
+                            <div class="age-display">
+                                <div class="age-unit">
+                                    <div class="value" id="yearsValue">0</div>
+                                    <div class="label">Years</div>
+                                </div>
+                                <div class="age-unit">
+                                    <div class="value" id="monthsValue">0</div>
+                                    <div class="label">Months</div>
+                                </div>
+                                <div class="age-unit">
+                                    <div class="value" id="daysValue">0</div>
+                                    <div class="label">Days</div>
+                                </div>
+                            </div>
+                            
+                            <div class="total-days">
+                                <i class="fas fa-calendar-check"></i>
+                                <span>That's approximately <span id="totalDays">0</span> days!</span>
+                            </div>
+                        </div>
+                        
+                        <div id="errorContainer" class="error-container" style="display: none;">
+                            <div class="error-icon">
+                                <i class="fas fa-exclamation-triangle"></i>
+                            </div>
+                            <h3>Invalid Date</h3>
+                            <p id="errorMessage">Please enter a valid birth date</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="examples">
+                <h3><i class="fas fa-list-ul"></i> Try these example dates:</h3>
+                <div class="example-buttons">
+                    <button class="example-btn" data-date="21/11/2002">21/11/2002</button>
+                    <button class="example-btn" data-date="15/08/1990">15/08/1990</button>
+                    <button class="example-btn" data-date="01/01/2010">01/01/2010</button>
+                    <button class="example-btn" data-date="29/02/2000">29/02/2000 (Leap Year)</button>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/luxon@3.3.0/build/global/luxon.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanillajs-datepicker@1.2.0/dist/js/datepicker-full.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
