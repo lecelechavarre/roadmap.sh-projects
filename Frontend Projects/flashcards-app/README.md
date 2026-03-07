@@ -4,7 +4,7 @@ A JavaScript flashcards application built with React to help test your JavaScrip
 
 ## Features
 
-- 20 pre-defined JavaScript questions and answers
+- Pre-defined JavaScript questions and answers
 - Interactive flashcards that flip to reveal answers
 - Progress bar showing current progress
 - Navigation buttons to move between cards
@@ -34,6 +34,7 @@ A JavaScript flashcards application built with React to help test your JavaScrip
    npm start
 
    ```
+
 
 
 
