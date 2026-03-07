@@ -15,7 +15,7 @@ A JavaScript flashcards application built with React to help test your JavaScrip
 - React 18
 - CSS3 with modern features (gradients, animations)
 
-## Getting Started
+## Getting Started 
 
 ### Prerequisites
 
@@ -34,6 +34,7 @@ A JavaScript flashcards application built with React to help test your JavaScrip
    npm start
 
    ```
+
 
 
 
