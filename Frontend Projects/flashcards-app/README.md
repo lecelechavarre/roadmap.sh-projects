@@ -19,7 +19,7 @@ A JavaScript flashcards application built with React to help test your JavaScrip
 
 ### Prerequisites
 
-- Node.js (v14 or higher)
+- Node.js (v14 or higher) 
 - npm or yarn
 
 ### Installation 
@@ -34,6 +34,7 @@ A JavaScript flashcards application built with React to help test your JavaScrip
    npm start
 
    ```
+
 
 
 
