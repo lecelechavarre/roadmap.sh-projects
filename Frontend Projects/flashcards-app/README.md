@@ -10,7 +10,7 @@ A JavaScript flashcards application built with React to help test your JavaScrip
 - Navigation buttons to move between cards
 - Responsive design
 
-## Technologies Used 
+## Technologies Used  
 
 - React 18
 - CSS3 with modern features (gradients, animations)
@@ -34,6 +34,7 @@ A JavaScript flashcards application built with React to help test your JavaScrip
    npm start
 
    ```
+
 
 
 
