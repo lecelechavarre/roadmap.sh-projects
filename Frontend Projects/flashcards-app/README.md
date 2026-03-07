@@ -22,7 +22,7 @@ A JavaScript flashcards application built with React to help test your JavaScrip
 - Node.js (v14 or higher)
 - npm or yarn
 
-### Installation
+### Installation 
 
 1. Clone the repository or create the project structure
 2. Navigate to the project directory
@@ -34,4 +34,5 @@ A JavaScript flashcards application built with React to help test your JavaScrip
    npm start
 
    ```
+
 
