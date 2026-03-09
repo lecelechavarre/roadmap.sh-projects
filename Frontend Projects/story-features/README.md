@@ -1,6 +1,6 @@
-# Story Feature 📱
+# Story Features
 
-> A production-grade, client-side story implementation inspired by Instagram and WhatsApp, featuring ephemeral content with 24-hour expiration, touch-optimized navigation, and local storage persistence.
+A production-grade, client-side story implementation inspired by Instagram and WhatsApp, featuring ephemeral content with 24-hour expiration, touch-optimized navigation, and local storage persistence.
 
 [![Tech Stack](https://img.shields.io/badge/React-18.2-blue?style=flat-square&logo=react)](https://reactjs.org/)
 [![Build Tool](https://img.shields.io/badge/Vite-4.4-646CFF?style=flat-square&logo=vite)](https://vitejs.dev/)
@@ -21,6 +21,7 @@ This project implements a fully functional story feature with zero backend depen
 - **Image Optimization**: Client-side image resizing maintaining aspect ratio
 
 ## Architecture
+```bash
 story-features/
 ├── public/
 ├── src/
@@ -46,7 +47,7 @@ story-features/
 ├── postcss.config.js
 ├── README.md
 └── .gitignore
-
+```
 
 ## Technical Implementation
 
@@ -93,7 +94,7 @@ npm run dev
 ```
 
 ## Environment Configuration
-> Create .env.local for custom configuration:
+Create .env.local for custom configuration:
 
 ```bash
 VITE_MAX_STORY_DURATION=3000
@@ -146,5 +147,6 @@ npm run test:e2e
 # Generate coverage report
 npm run test:coverage
 ```
+
 
 
