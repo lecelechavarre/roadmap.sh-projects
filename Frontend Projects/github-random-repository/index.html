@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>GitHub Repository Finder</title>
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+<body>
+  <main class="page">
+    <section class="panel">
+      <header class="panel__header">
+        <span class="brand-dot" aria-hidden="true"></span>
+        <h1 class="panel__title">GitHub Repository Finder</h1>
+      </header>
+
+      <div class="panel__controls">
+        <label class="sr-only" for="languageSelect">Programming language</label>
+        <select id="languageSelect" class="select">
+          <!-- Populated by languages.js (includes a placeholder "Select a Language") -->
+        </select>
+      </div>
+
+      <!-- States area -->
+      <section id="stateArea" aria-live="polite">
+        <!-- Empty -->
+        <div id="emptyState" class="state">
+          <div class="state-box state-box--neutral">
+            <p class="state-text">Please select a language</p>
+          </div>
+        </div>
+
+        <!-- Loading -->
+        <div id="loadingState" class="state state--hidden">
+          <div class="state-box state-box--loading">
+            <p class="state-text">Loading, please wait..</p>
+          </div>
+        </div>
+
+        <!-- Error -->
+        <div id="errorState" class="state state--hidden">
+          <div class="state-box state-box--error">
+            <p id="errorMessage" class="state-text">Error fetching repositories</p>
+          </div>
+          <button id="retryBtn" class="btn btn--danger">Click to retry</button>
+        </div>
+
+        <!-- Success -->
+        <div id="successState" class="state state--hidden">
+          <article class="repo-card" id="repoCard">
+            <div class="repo-card__header">
+              <h2 id="repoName" class="repo-card__title">
+                <!-- Filled by JS -->
+              </h2>
+            </div>
+            <p id="repoDescription" class="repo-card__desc"></p>
+
+            <div class="repo-card__footer">
+              <div class="lang-chip">
+                <span id="langDot" class="lang-chip__dot"></span>
+                <span id="langLabel" class="lang-chip__label"></span>
+              </div>
+              <ul class="metrics">
+                <li title="Stars">⭐ <span id="repoStars">—</span></li>
+                <li title="Forks">🍴 <span id="repoForks">—</span></li>
+                <li title="Open issues">🐞 <span id="repoIssues">—</span></li>
+              </ul>
+            </div>
+          </article>
+
+          <button id="refreshBtn" class="btn btn--black">Refresh</button>
+        </div>
+      </section>
+    </section>
+  </main>
+
+  <script src="./js/languages.js"></script>
+  <script src="./js/app.js"></script>
+</body>
+</html>
