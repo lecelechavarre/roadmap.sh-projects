@@ -1,0 +1,19 @@
+.sessionInfo {
+  text-align: center;
+  margin: var(--spacing-lg) 0;
+  padding: var(--spacing-md);
+  background: var(--surface);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+}
+
+.sessionType {
+  color: var(--primary-color);
+  margin-bottom: var(--spacing-sm);
+  font-size: 1.5rem;
+}
+
+.sessions {
+  color: var(--text-secondary);
+  font-size: 1.1rem;
+}
