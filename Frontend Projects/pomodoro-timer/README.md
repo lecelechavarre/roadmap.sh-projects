@@ -2,14 +2,14 @@
   
 A productivity timer application based on the Pomodoro Technique.
 
-## Features
+## Features 
 
-- 🕒 Start, pause, and reset timer
-- ⚙️ Configurable work/break intervals
-- 📊 Session tracking
-- 🔔 Sound notification on session end
-- 📱 Responsive design
-- ♿ Accessible interface
+- Start, pause, and reset timer
+- Configurable work/break intervals
+- Session tracking
+- Sound notification on session end
+- Responsive design
+- Accessible interface
 
 ## Default Settings
 
