@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Simple Tabs Component</title>
+
+  <!-- Link external stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="card">
+    <!-- Tabs -->
+    <div class="tabs"
+         role="tablist"
+         aria-label="Sample Tabs">
+      <button class="tab"
+              role="tab"
+              id="tab-1"
+              aria-selected="true"
+              aria-controls="panel-1"
+              tabindex="0">
+        First Tab
+      </button>
+      <button class="tab"
+              role="tab"
+              id="tab-2"
+              aria-selected="false"
+              aria-controls="panel-2"
+              tabindex="-1">
+        Second Tab
+      </button>
+      <button class="tab"
+              role="tab"
+              id="tab-3"
+              aria-selected="false"
+              aria-controls="panel-3"
+              tabindex="-1">
+        Third Tab
+      </button>
+      <button class="tab"
+              role="tab"
+              id="tab-4"
+              aria-selected="false"
+              aria-controls="panel-4"
+              tabindex="-1">
+        Fourth Tab
+      </button>
+    </div>
+
+    <p class="lead">
+      Clicking each tab should hide the content of the other tab and show the content of clicked tab. By default, enable the first tab.
+    </p>
+
+    <!-- Panels -->
+    <section class="panels">
+      <div class="panel"
+           role="tabpanel"
+           id="panel-1"
+           aria-labelledby="tab-1"
+           aria-hidden="false">
+        <div class="content">First Tab content to be displayed here.</div>
+        <p class="footnote">Add some dummy content or just add a simple text showing the tab</p>
+      </div>
+
+      <div class="panel"
+           role="tabpanel"
+           id="panel-2"
+           aria-labelledby="tab-2"
+           aria-hidden="true">
+        <div class="content">Second Tab content to be displayed here.</div>
+        <p class="footnote">Add some dummy content or just add a simple text showing the tab</p>
+      </div>
+
+      <div class="panel"
+           role="tabpanel"
+           id="panel-3"
+           aria-labelledby="tab-3"
+           aria-hidden="true">
+        <div class="content">Third Tab content to be displayed here.</div>
+        <p class="footnote">Add some dummy content or just add a simple text showing the tab</p>
+      </div>
+
+      <div class="panel"
+           role="tabpanel"
+           id="panel-4"
+           aria-labelledby="tab-4"
+           aria-hidden="true">
+        <div class="content">Fourth Tab content to be displayed here.</div>
+        <p class="footnote">Add some dummy content or just add a simple text showing the tab</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Load behavior -->
+  <script src="tabs.js"></script>
+</body>
+</html>
