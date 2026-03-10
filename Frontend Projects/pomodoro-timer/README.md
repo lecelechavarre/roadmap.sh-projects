@@ -1,5 +1,5 @@
 # Pomodoro Timer
- 
+  
 A productivity timer application based on the Pomodoro Technique.
 
 ## Features
