@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reddit Lane Client</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-brand">
+            <i class="fab fa-reddit-alien"></i>
+            <span>Reddit Lane</span>
+        </div>
+        <div class="nav-controls">
+            <input type="text" id="subredditInput" placeholder="Enter the name of subreddit" class="subreddit-input">
+            <button id="addSubredditBtn" class="btn-primary">
+                <i class="fas fa-plus"></i>
+                Add Subreddit
+            </button>
+        </div>
+    </nav>
+
+    <main class="container">
+        <div class="lanes-wrapper">
+            <div class="lanes-container" id="lanesContainer"></div>
+        </div>
+    </main>
+
+    <div class="info-bar">
+        <i class="fas fa-info-circle"></i>
+        <span>Delete will remove lane - Refresh will fetch reddit data again</span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
