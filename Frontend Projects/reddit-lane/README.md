@@ -35,8 +35,5 @@ No prerequisites needed! This is a client-side only application that runs entire
 
 1. Clone the repository:
 ```bash
-
 git clone https://github.com/lecelechavarre/reddit-lane.git
-
-
-
+```
