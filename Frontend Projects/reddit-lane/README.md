@@ -2,13 +2,13 @@
 
 A modern, multi-lane Reddit client that allows you to view posts from multiple subreddits simultaneously. Built with vanilla JavaScript, HTML5, and CSS3.
 
-![Reddit Lane Client Screenshot](./screenshot.png)
+![Reddit Lane Client Screenshot]([./screenshot.png](https://github.com/lecelechavarre/roadmap.sh-projects/blob/main/Frontend%20Projects/reddit-lane/asset/screenshot.png))
 
 ## 📸 Screenshot
 
 *Add your screenshot here - see instructions below on how to take one*
 
-## ✨ Features
+## Features
 
 - **Multi-Lane Interface** - View multiple subreddits side by side
 - **Add/Remove Lanes** - Dynamically add any subreddit by name
@@ -24,7 +24,7 @@ A modern, multi-lane Reddit client that allows you to view posts from multiple s
 
 [View Live Demo](https://your-demo-link.netlify.app) *(Add your deployment link here)*
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - HTML5
 - CSS3 (Flexbox, Grid, Animations)
@@ -33,12 +33,13 @@ A modern, multi-lane Reddit client that allows you to view posts from multiple s
 - Local Storage API
 - Font Awesome Icons
 
-## 📋 Prerequisites
+## Prerequisites
 
 No prerequisites needed! This is a client-side only application that runs entirely in the browser.
 
-## 🔧 Installation
+## Installation
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/reddit-lane-client.git
+
+git clone https://github.com/lecelechavarre/reddit-lane.git
