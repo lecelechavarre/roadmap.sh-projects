@@ -18,10 +18,6 @@ A modern, multi-lane Reddit client that allows you to view posts from multiple s
 - **Error Handling** - Friendly error messages for invalid subreddits
 - **Loading States** - Visual feedback while fetching data
 
-## 🚀 Live Demo
-
-[View Live Demo](https://your-demo-link.netlify.app) *(Add your deployment link here)*
-
 ## Technologies Used
 
 - HTML5
@@ -41,5 +37,6 @@ No prerequisites needed! This is a client-side only application that runs entire
 ```bash
 
 git clone https://github.com/lecelechavarre/reddit-lane.git
+
 
 
