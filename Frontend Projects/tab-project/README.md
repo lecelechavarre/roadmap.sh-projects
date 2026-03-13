@@ -7,7 +7,7 @@ The first tab loads as active by default. Clicking a tab switches the currently 
 
 ---
 
-## Features
+## Features 
 
 - Four fully functional tabs  
 - First tab active by default  
