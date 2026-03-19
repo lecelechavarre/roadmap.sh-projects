@@ -1,4 +1,4 @@
-# Tabs Component (HTML • CSS • JavaScript)
+# Tabs Component
 
 This project is a simple and accessible  **Tabs Component** built using **HTML**, **CSS**, and **Vanilla JavaScript**.  
 It demonstrates basic **DOM manipulation**, **event handling**, and **ARIA accessibility practices** while recreating the UI shown in the project mockup.
