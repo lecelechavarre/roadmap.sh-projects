@@ -147,6 +147,3 @@ npm run test:e2e
 # Generate coverage report
 npm run test:coverage
 ```
-
-
-
