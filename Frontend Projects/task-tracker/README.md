@@ -1,6 +1,6 @@
 # Task Tracker
 
-A clean, minimalist task management application that allows users to add, complete, and delete tasks with automatic sorting of completed tasks.
+Task management application that allows users to add, complete, and delete tasks with automatic sorting of completed tasks.
 
 ## Screenshot
 
